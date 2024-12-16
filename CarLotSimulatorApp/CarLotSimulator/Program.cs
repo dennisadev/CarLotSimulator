@@ -60,6 +60,8 @@ namespace CarLotSimulator
             Console.WriteLine("Car Lot:");
             carLotOne.CheckCars();
 
+            Console.WriteLine($"Total Number of Cars:{CarLot.numberOfCars}");
+
             //*************BONUS*************//
 
             // Set the properties utilizing the 3 different ways we learned about, one way for each car
